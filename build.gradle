@@ -1,0 +1,24 @@
+buildscript {
+
+    repositories {
+        jcenter()
+        mavenCentral()
+        maven { url "https://raw.github.com/Raizlabs/maven-releases/master/releases" }
+        maven { url "https://jitpack.io" }
+    }
+
+    dependencies {
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+
+        classpath 'com.android.tools.build:gradle:2.0.0'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.1'
+        classpath 'com.google.gms:google-services:1.4.0-beta3'
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url 'https://dl.bintray.com/raizlabs/Libraries' }
+        maven { url "https://dl.bintray.com/florent37/maven" }
+    }
+}

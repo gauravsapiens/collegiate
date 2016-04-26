@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingTop="@dimen/padding_top">
+
+    <com.collegiate.view.base.ColImageView
+        android:id="@+id/image_view"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        app:actualImageScaleType="focusCrop" />
+
+    <View
+        android:id="@+id/image_overlay"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true" />
+
+    <com.collegiate.view.base.ColTextView
+        android:id="@+id/duration"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="left"
+        android:textSize="@dimen/text_small" />
+
+    <com.collegiate.view.base.ColTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_toLeftOf="@+id/duration"
+        android:layout_toRightOf="@+id/image_view"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:textColor="@color/lecture_title"
+        android:textSize="@dimen/text_medium_minus" />
+
+    <View
+        android:id="@+id/separator"
+        style="@style/Separator"
+        android:layout_below="@+id/image_view"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/padding_top"
+        android:layout_toRightOf="@+id/image_view" />
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        style="@style/Card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="blocksDescendants">
+
+            <com.collegiate.view.base.ColImageView
+                android:id="@+id/image_view"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@color/course_overlay_home" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_view"
+                android:orientation="vertical"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp">
+
+                <RelativeLayout
+                    android:id="@+id/bottom_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp">
+
+                    <com.collegiate.view.base.ColTextView
+                        android:id="@+id/text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/subscribed"
+                        android:textColor="@color/course_title"
+                        android:textSize="15sp" />
+
+                    <com.collegiate.view.base.ColImageView
+                        android:id="@+id/subscribed"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_alignParentRight="true"
+                        android:visibility="gone"
+                        app:actualImageScaleType="centerCrop"
+                        app:backgroundImage="@color/accent_light"
+                        app:placeholderImage="@drawable/ic_done_white_18dp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/schedule_separator"
+                    style="@style/Separator"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp"
+                    android:visibility="gone" />
+
+                <com.collegiate.view.base.ColTextView
+                    android:id="@+id/schedule"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:visibility="gone" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/enroll_button_pressed"
+                    android:visibility="gone" />
+
+                <com.collegiate.view.base.ColButton
+                    android:id="@+id/disable"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/yellow"
+                    android:text="HIDE"
+                    android:textColor="@color/black"
+                    android:visibility="gone" />
+
+                <com.collegiate.view.base.ColButton
+                    android:id="@+id/delete"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/red"
+                    android:text="DELETE"
+                    android:textColor="@color/white"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

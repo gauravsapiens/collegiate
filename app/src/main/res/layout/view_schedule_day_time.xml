@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.collegiate.view.base.ColTextView
+            android:id="@+id/mon"
+            style="@style/DayText"
+            android:text="M" />
+
+        <com.collegiate.view.base.ColTextView
+            android:id="@+id/tue"
+            style="@style/DayText"
+            android:text="T" />
+
+        <com.collegiate.view.base.ColTextView
+            android:id="@+id/wed"
+            style="@style/DayText"
+            android:text="W" />
+
+        <com.collegiate.view.base.ColTextView
+            android:id="@+id/thu"
+            style="@style/DayText"
+            android:text="T" />
+
+        <com.collegiate.view.base.ColTextView
+            android:id="@+id/fri"
+            style="@style/DayText"
+            android:text="F" />
+
+        <com.collegiate.view.base.ColTextView
+            android:id="@+id/sat"
+            style="@style/DayText"
+            android:text="S" />
+
+        <com.collegiate.view.base.ColTextView
+            android:id="@+id/sun"
+            style="@style/DayText"
+            android:text="S" />
+
+    </LinearLayout>
+
+    <com.collegiate.view.base.ColTextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:font="@string/font_bold"
+        android:textColor="@color/time_label_schedule_view"
+        android:textSize="@dimen/text_large"/>
+
+</merge>

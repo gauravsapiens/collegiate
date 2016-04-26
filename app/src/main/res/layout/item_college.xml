@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <com.collegiate.view.base.ColImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <com.collegiate.view.base.ColTextView
+        android:id="@+id/text_view"
+        android:layout_centerInParent="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:font="@string/font_bold"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.collegiate.view.base.ColImageView
+        android:id="@+id/frame_layout"
+        android:background="@drawable/selector_college_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

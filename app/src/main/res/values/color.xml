@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#346df0</color>
+    <color name="primary_dark">#274ecc</color>
+    <color name="secondary">#ff1393df</color>
+    <color name="accent">#1cce68</color>
+    <color name="accent_light">#aeb0b1</color>
+    <color name="actionbar">#ffffff</color>
+    <color name="tab_indicator">#ffffff</color>
+
+    <color name="list_divider">#ffe2e2e2</color>
+
+    <color name="window_background">#ededed</color>
+    <color name="card_background">#fafafa</color>
+
+    <color name="college_overlay_unselected">#50000000</color>
+    <color name="college_overlay_selected">#31000000</color>
+    <color name="college_overlay_detail_screen">#8b000000</color>
+
+    <color name="college_description">#75808C</color>
+
+    <color name="course_overlay_home">#28000000</color>
+    <color name="course_overlay_detailed">#28000000</color>
+
+    <color name="tab_text_selected">#ffffff</color>
+    <color name="tab_text_unselected">#acffffff</color>
+
+    <color name="course_title">#000000</color>
+    <color name="course_button">#a7000000</color>
+
+    <color name="day_background_normal">#edeeef</color>
+    <color name="day_text_normal">#a7000000</color>
+
+    <color name="day_background_selected">#c8c9ca</color>
+    <color name="day_text_selected">#ffffff</color>
+
+    <color name="time_label_schedule_view">#aeb0b1</color>
+
+    <color name="no_courses_subscribed">#5e5e5e</color>
+
+    <color name="lecture_unseen">#000000</color>
+    <color name="lecture_seen">#828282</color>
+
+    <color name="lecture_image_overlay_unseen">#00000000</color>
+    <color name="lecture_image_overlay_seen">#78828282</color>
+
+    <color name="lecture_title">#000000</color>
+    <color name="lecture_description">#4c4c4c</color>
+
+    <color name="lecture_detail_title">#000000</color>
+    <color name="lecture_detail_description">#9b4c4c4c</color>
+
+    <color name="lecture_detail_more">#00000000</color>
+
+    <color name="enroll_button_normal">#e8e8e8</color>
+    <color name="enroll_button_pressed">#c0c0c0</color>
+
+    <color name="notes_content">#9b1e1e1e</color>
+
+    <color name="notes_button_normal">#0c000000</color>
+    <color name="notes_button_pressed">#37000000</color>
+
+    <color name="separator">#e2e2e2</color>
+
+    <color name="list_item_title">#000000</color>
+    <color name="list_item_subtitle">#75808C</color>
+
+    <color name="icon_navigation_drawer">#8a000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#ffe600</color>
+
+    <!-- icon = 63 118 242
+        action bar = 52 109 240
+        status bar = 39 78 204
+        floating = 206 46 43-->
+
+</resources>

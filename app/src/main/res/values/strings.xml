@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">Collegiate</string>
+    <string name="enroll">Enroll</string>
+    <string name="search">Search</string>
+    <string name="done">Done</string>
+
+    <string name="join_college">Join</string>
+    <string name="no_results_message">No Results</string>
+    <string name="retry">Retry</string>
+    <string name="error_empty_selection_not_allowed">Empty Selection Not Allowed</string>
+
+    <string name="no_courses_subscribed">Subscribe to a course to get started</string>
+
+    <!-- font -->
+    <string name="font_regular">regular.ttf</string>
+    <string name="font_bold">bold.ttf</string>
+    <string name="font_medium">medium.ttf</string>
+    <string name="font_thin">thin.ttf</string>
+    <string name="font_light">light.ttf</string>
+
+    <string name="app_url">https://goo.gl/IiHjvg</string>
+    <string name="youtube_api_key"></string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+
+      <string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
+    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
+    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
+    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
+    the big cheese.</string>
+
+</resources>

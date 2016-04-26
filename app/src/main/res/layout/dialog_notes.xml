@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="@dimen/padding_top">
+
+    <com.collegiate.view.base.ColEditText
+        android:id="@+id/note_input"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minLines="4"
+        android:background="@android:color/transparent"
+        android:gravity="top|left"
+        android:scrollbars = "vertical"
+        android:textColor="@color/notes_content"
+        android:textSize="@dimen/text_large" />
+
+</LinearLayout>

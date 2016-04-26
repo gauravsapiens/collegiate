@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/player_frame"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:layout_alignParentTop="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/enroll_button"
+        android:layout_below="@+id/player_frame">
+
+        <LinearLayout
+            style="@style/LayoutBase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.collegiate.view.base.ColTextView
+                android:id="@+id/title"
+                style="@style/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.collegiate.view.base.ColTextView
+                android:id="@+id/description"
+                style="@style/Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.collegiate.view.base.ColButton
+        android:id="@+id/enroll_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/accent"
+        android:text="@string/join_college"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

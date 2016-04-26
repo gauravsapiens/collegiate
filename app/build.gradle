@@ -70,7 +70,7 @@ android {
             signingConfig signingConfigs.debug
             applicationIdSuffix '.debug'
 
-            buildConfigField "String", "ANALYTIC_TRACKING_ID", "UA"
+            buildConfigField "String", "ANALYTIC_TRACKING_ID", "\"SOME_ID\""
         }
     }
 }
